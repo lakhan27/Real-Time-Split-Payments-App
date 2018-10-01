@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/person0"
+        android:layout_alignLeft="@+id/person0"
+        android:layout_alignStart="@+id/person0"
+        android:textSize="18dp"
+        android:layout_marginTop="43dp"
+        android:id="@+id/owes01" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/owes01"
+        android:layout_alignRight="@+id/owes01"
+        android:layout_alignEnd="@+id/owes01"
+        android:textSize="18dp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/owes02" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/owes01"
+        android:layout_toRightOf="@+id/owes01"
+        android:layout_toEndOf="@+id/owes01"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp"
+        android:id="@+id/amt01" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/owes02"
+        android:layout_alignRight="@+id/amt01"
+        android:layout_alignEnd="@+id/amt01"
+        android:id="@+id/amt02" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/owes20"
+        android:layout_alignRight="@+id/amt12"
+        android:layout_alignEnd="@+id/amt12"
+        android:id="@+id/amt20" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/owes21"
+        android:layout_alignRight="@+id/amt20"
+        android:layout_alignEnd="@+id/amt20"
+        android:id="@+id/amt21" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amt10"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/amt02"
+        android:layout_alignStart="@+id/amt02" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/owes10"
+        android:layout_alignTop="@+id/amt10"
+        android:layout_alignLeft="@+id/person1"
+        android:layout_alignStart="@+id/person1" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amt12"
+        android:layout_alignBaseline="@+id/owes12"
+        android:layout_alignBottom="@+id/owes12"
+        android:layout_alignLeft="@+id/amt10"
+        android:layout_alignStart="@+id/amt10" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:textSize="25dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/person0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/person1"
+        android:layout_above="@+id/owes10"
+        android:layout_alignLeft="@+id/owes02"
+        android:layout_alignStart="@+id/owes02"
+        android:layout_marginBottom="23dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/owes12"
+        android:textSize="18dp"
+        android:layout_below="@+id/owes10"
+        android:layout_alignLeft="@+id/owes10"
+        android:layout_alignStart="@+id/owes10" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/person2"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/owes12"
+        android:layout_alignLeft="@+id/owes12"
+        android:layout_alignStart="@+id/owes12" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="26dp"
+        android:id="@+id/owes20"
+        android:layout_below="@+id/person2"
+        android:layout_alignLeft="@+id/person2"
+        android:layout_alignStart="@+id/person2" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/owes21"
+        android:layout_below="@+id/owes20"
+        android:layout_alignLeft="@+id/owes20"
+        android:layout_alignStart="@+id/owes20" />
+
+</RelativeLayout>

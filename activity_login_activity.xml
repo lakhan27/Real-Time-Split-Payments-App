@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lenovo.myapplication.MainActivity"
+    >
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Enter User Name:"
+        android:layout_marginTop="67dp"
+        android:id="@+id/Email_id"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:layout_marginTop="77dp"
+        android:id="@+id/password"
+        android:layout_below="@+id/Email_id"
+        android:layout_alignLeft="@+id/Email_id"
+        android:layout_alignStart="@+id/Email_id" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ready to Go!"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:id="@+id/go"
+        android:layout_below="@+id/password"
+        android:layout_alignRight="@+id/password"
+        android:layout_alignEnd="@+id/password"
+        android:layout_marginTop="125dp"
+        style="@android:style/Widget.Button" />
+
+    <TextView
+        android:text="Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="55dp"
+        android:id="@+id/result"
+        android:layout_below="@+id/go"
+        android:layout_alignRight="@+id/go"
+        android:layout_alignEnd="@+id/go" />
+
+
+</RelativeLayout>
